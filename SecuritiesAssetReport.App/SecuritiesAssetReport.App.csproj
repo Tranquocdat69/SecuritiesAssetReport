@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>disable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>dotnet-SecuritiesAssetReport.App-76E060F0-B068-4210-B3FD-151EDBDF512C</UserSecretsId>
+		<RootNamespace>FPTS.FIT.BACK.SecuritiesAssetReport.Service.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\SecuritiesAssetReport.Domain\SecuritiesAssetReport.Domain.csproj" />
+	  <ProjectReference Include="..\SecuritiesAssetReport.Infrastructure\SecuritiesAssetReport.Infrastructure.csproj" />
+	</ItemGroup>
+</Project>
