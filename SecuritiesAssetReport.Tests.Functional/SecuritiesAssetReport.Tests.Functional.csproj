@@ -6,7 +6,7 @@
 
     <IsPackable>false</IsPackable>
 
-    <RootNamespace>FPTS.FIT.BACK.SecuritiesAsset.Service.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <RootNamespace>FPTS.FIT.BACK.SecuritiesAssetReport.Service.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace SecuritiesAsset.Tests.Unit;
+namespace SecuritiesAssetReport.Tests.Functional;
 
 public class UnitTest1
 {
