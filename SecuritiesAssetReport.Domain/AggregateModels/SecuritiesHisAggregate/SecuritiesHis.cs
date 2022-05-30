@@ -1,6 +1,6 @@
 ﻿namespace FPTS.FIT.BACK.SecuritiesAssetReport.Service.SecuritiesAssetReport.Domain.AggregateModels.SecuritiesHisAggregate
 {
-    public class SecuritiesHis
+    public class SecuritiesHis : BaseEntity, IAggregateRoot
     {
         public string ClientCode { get; private set; }
         public string StockCode { get; private set; }

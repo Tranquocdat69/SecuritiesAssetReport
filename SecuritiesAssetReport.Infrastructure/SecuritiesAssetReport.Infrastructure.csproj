@@ -7,9 +7,12 @@
     <RootNamespace>FPTS.FIT.BACK.SecuritiesAssetReport.Service.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Repositories\" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="MediatR" Version="10.0.1" />
+		<PackageReference Include="Oracle.EntityFrameworkCore" Version="6.21.61" />
+		<PackageReference Include="Polly" Version="7.2.3" />
+		<PackageReference Include="StackExchange.Redis" Version="2.5.61" />
+	</ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\SecuritiesAssetReport.Domain\SecuritiesAssetReport.Domain.csproj" />

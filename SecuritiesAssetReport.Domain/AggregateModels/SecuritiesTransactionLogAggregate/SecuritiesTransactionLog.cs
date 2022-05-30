@@ -1,6 +1,6 @@
 ﻿namespace FPTS.FIT.BACK.SecuritiesAssetReport.Service.SecuritiesAssetReport.Domain.AggregateModels.SecuritiesTransactionLogAggregate
 {
-    public class SecuritiesTransactionLog
+    public class SecuritiesTransactionLog : BaseEntity, IAggregateRoot
     {
         public DateTime? DateTime { get; private set; }
         public string RefID { get; private set; }

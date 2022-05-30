@@ -16,4 +16,10 @@
 	  <ProjectReference Include="..\SecuritiesAssetReport.Domain\SecuritiesAssetReport.Domain.csproj" />
 	  <ProjectReference Include="..\SecuritiesAssetReport.Infrastructure\SecuritiesAssetReport.Infrastructure.csproj" />
 	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Application\BackgroundTasks\" />
+	  <Folder Include="Application\Commands\" />
+	  <Folder Include="Application\IntegrationEvents\" />
+	</ItemGroup>
 </Project>
